@@ -25,15 +25,8 @@ npm install inquirer
 
 To initiate open your terminal, enter node index.js. Follow the instructional prompts or questions. 
 
-
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+  
+https://user-images.githubusercontent.com/117357827/216520194-e3d12558-5fff-41b5-83f7-4d196e213d7d.mp4
 
 ## License
 
@@ -46,4 +39,4 @@ Muna Zeki
 
 ## Contact 
 
-<a href="mailto:[munazekia@gmail.com](mailto:munazekia@gmail.com)
+(mailto:munazekia@gmail.com)
