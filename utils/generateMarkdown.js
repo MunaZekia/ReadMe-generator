@@ -9,35 +9,55 @@ function renderLicenseBadge(license) {
     return "";
   }
 }
+function renderLicenseLink(license) {
+  if (license !== "None") {
+    return `- [License](#license)`;
+  }
+  return "";
+}
+
+function renderLicenseSection(license) {
+  if (license !== "None") {
+  return `## License\nThis project is license under the ${license} license.`;
+  }
+  return "";
+}
 
 function generateMarkdown(data) {
-  return `# ${data.title}
+return `# ${data.title}
 
-  ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
 
-  ## Table of Contents
-  - [Description](#description)
-  - [Usage](#usage)
-  - [Installation](#installation)
-  - [License](#license)
+## Table of Contents
+- [Description](#description)
+- [Usage](#usage)
+- [Installation](#installation)
+${renderLicenseLink(data.license)}
+- [Contributing](#contributing)
+- [Testing](#testing)
 
-  ## Description
-  ${data.description}
+## Description
+${data.description}
 
-  ## Usage
-  ${data.usage}
+## Usage
+${data.usage}
 
-  ## Installation
-  ${data.installation}
+## Installation
+${data.installation}
 
-  ## License 
-  ${data.license}
+${renderLicenseSection(data.license)}
 
-  ## Questions
-  contact me at
-  [${data.email}](mailto:${data.email})
-   or visit my github page at
-  [${data.github}](https://github.com/${data.github})
+## Contributing
+${data.contributor}
+
+## Testing
+${data.testing}
+
+## Questions
+contact me at
+[${data.email}](mailto:${data.email})
+or visit my github page at
+[${data.github}](https://github.com/${data.github})
 
 `;
 }
