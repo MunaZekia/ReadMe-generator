@@ -25,8 +25,9 @@ npm install inquirer
 
 To initiate open your terminal, enter node index.js. Follow the instructional prompts or questions. 
 
-  
-https://user-images.githubusercontent.com/117357827/216520194-e3d12558-5fff-41b5-83f7-4d196e213d7d.mp4
+  [Untitled_ Feb 28 2023 5_18 PM.webm](https://user-images.githubusercontent.com/117357827/222006207-d3c12718-4b30-4d2f-9d12-0140a81adebf.webm)
+
+
 
 ## License
 
